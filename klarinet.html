@@ -24,7 +24,31 @@
 
         <h1>Klarinét</h1>
 
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Főoldal</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <div class="nav-item">
+                            <a class="nav-link" href="index.html">Főoldal</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#reszek">Klarinét</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#lista">Tanulói hangszerek</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     </header>
+
+    
 
     <main class="container-fluid">
         <div class="row">
@@ -41,8 +65,8 @@
                         A nádból készült egyszerű idioglott pásztorsípok (vagyis ahol a sípnyelv a test anyagából van
                         hasítva, pl. a magyar nádduda) működési elvük alapján rokoníthatók vele, hiszen ezek is
                         egynyelves nádsíppal és hengeres „furattal” rendelkeznek.</p>
-                    <p>A középkortól chalumeau nevű elődje volt használatban, de csupán népi hangszerként. Johann
-                        Christoph Denner  (1655-1707) újításai (1690) tették lehetővé a hangszer hangterjedelmének
+                    <p>A középkortól chalumeau nevű elődje volt használatban, de csupán népi hangszerként. <i>Johann
+                        Christoph Denner</i>  (1655-1707) újításai (1690) tették lehetővé a hangszer hangterjedelmének
                         kiszélesítését, illetve, hogy ezt a hangterjedelmet kvintelő jellege ellenére megszakítás nélkül
                         foghassa át. Denner újítása, az átfúvólyuk révén megszólaltatható lett egy magasabb regiszter,
                         melynek hangzása vetekedett a 18. századi trombita magas, fényes clarino regiszterének
@@ -64,41 +88,41 @@
                         nagyzenekarban 2-3 klarinét és egy basszusklarinét, a kamarazenekarban pedig 1-2 klarinét lehet.
                     </p>
                     <p class="font-weight-bold" id="reszek">A klarinét részei:</p>
-                       
-                            fúvóka (szorítóval, ami a nádat fogja a fúvókához)
-                            nád
-                            hordó (ezzel a részével lehet hangolni)
-                            felső rész
-                            alsó rész
-                            tölcsér
-                        
-
-                        <table id="lista" class="table table-secondary table-hover">
+                        <div>
+                            <li>fúvóka (szorítóval, ami a nádat fogja a fúvókához)</li>
+                            <li>nád</li>
+                            <li>hordó (ezzel a részével lehet hangolni)</li>
+                            <li>felső rész</li>
+                            <li>alsó rész</li>
+                            <li>tölcsér</li>
+                        </div>
+                    
+                        <table id="lista" class="table table-secondary table-hover table-bordered table-striped">
         
                             <thead>
-                                <tr><td>Tanulói hangszerek listája</td></tr>                                
+                                <tr><th colspan="3">Tanulói hangszerek listája</th></tr>                                
                               <tr>
-                                <td scope="col">Sorszám</td>
-                                <td scope="col">Termék megnevezése </td>
-                                <td scope="col">Megjegyzés</td>                                
+                                <th scope="col">Sorszám</th>
+                                <th scope="col">Termék megnevezése </th>
+                                <th scope="col">Megjegyzés</th>                                
                               </tr>
                             </thead>
                             <tbody>
-                                <tr><td>KLARINÉTOK</td></tr>
+                                <tr><th colspan="3">KLARINÉTOK</th></tr>
                               <tr>
-                                <td scope="row">1</td>
+                                <th scope="row">1</th>
                                 <td>Buffet Prodige B-klarinét</td>
                                 <td>A francia márka elismert hangszereinek kezdő modellje high-end ABS
                                     plasticból készült.</td>                                
                               </tr>
                               <tr>
-                                <td scope="row">2</td>
+                                <th scope="row">2</th>
                                 <td>Yamaha YCL-255S klarinét </td>
                                 <td>Az elismert japán márka tanuló modellje tartós és minőségi anyagokból,
                                     precíz összeszereléssel készül.</td>                                
                               </tr>
                               <tr>
-                                <td scope="row">3</td>
+                                <th scope="row">3</th>
                                 <td>Jupiter JCL-750SQ B-klarinét</td>
                                 <td>Az iskolai hangszerek között elismert márka fából készült hangszere
                                     megbízható és tartós.</td>                                
